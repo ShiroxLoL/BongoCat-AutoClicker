@@ -10,26 +10,26 @@
 ### Option 1 — Clone via Git (Recommended)
 
 1. **Install [Git](https://git-scm.com/downloads)**  
-   - Verify installation:  
-     ```bash
-     git --version
-     ```
+   Verify the installation:
+   ```bash
+   git --version
+````
 
-2. **Clone the repository**  
+2. **Clone the repository:**
+
    ```bash
    git clone https://github.com/ShiroxLoL/BongoCat-AutoClicker.git
    cd BongoCat-AutoClicker
-````
+   ```
 
 3. **Install [Python 3.8+](https://www.python.org/downloads/)**
+   Verify the installation:
 
-   * Verify installation:
+   ```bash
+   python --version
+   ```
 
-     ```bash
-     python --version
-     ```
-
-4. **Install dependencies**
+4. **Install dependencies:**
 
    ```bash
    pip install -r requirements.txt
@@ -42,7 +42,7 @@
 1. Go to the GitHub page:
    [https://github.com/ShiroxLoL/BongoCat-AutoClicker](https://github.com/ShiroxLoL/BongoCat-AutoClicker)
 
-2. Click the green **“Code”** button → **“Download ZIP”**
+2. Click the green **“Code”** button → select **“Download ZIP”**.
 
 3. Extract the ZIP file anywhere on your computer.
 
@@ -58,18 +58,18 @@
 
 ## ▶️ Usage
 
-1. **Run the script**
+1. **Run the script:**
 
    ```bash
    python autoclicker.py
    ```
 
-2. **Controls**
+2. **Controls:**
 
    * Press **`p`** → Start or stop the auto-clicker
    * Press **`q`** → Quit the program
 
-3. **Behavior**
+3. **Behavior:**
 
    * Randomized click interval: **0.01 – 0.02 seconds**
    * Each click is held for **0.02 seconds**
@@ -79,7 +79,7 @@
 
 ## ⚙️ Configuration
 
-You can edit timing values in `autoclicker.py` to customize click speed:
+You can modify timing values in `autoclicker.py` to adjust click speed:
 
 ```python
 min_interval = 0.01  # Minimum delay between clicks (seconds)
@@ -98,7 +98,7 @@ Adjust these values cautiously to avoid detection or instability.
 * [keyboard==0.13.5](https://pypi.org/project/keyboard/)
 * [Git](https://git-scm.com/downloads) *(only needed for cloning)*
 
-Install all requirements with:
+Install all requirements:
 
 ```bash
 pip install -r requirements.txt
@@ -130,4 +130,4 @@ You may **not**:
 
 ---
 
-© 2025 [ShiroxLoL](https://github.com/ShiroxLoL) — All Rights Reserved.
+© 2025 [ShiroxLoL](https://github.com/ShiroxLoL) - All Rights Reserved.
