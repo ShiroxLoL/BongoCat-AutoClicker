@@ -1,89 +1,66 @@
 # 🐾 BongoCat AutoClicker
 
-**Author:** [ShiroxLoL](https://github.com/ShiroxLoL)  
+**Author:** [ShiroxLoL](https://github.com/ShiroxLoL)
+
+---
+
+## ⚙️ Features
+
+* 🖱️ Simulates real mouse clicks
+* 🎲 Randomized intervals between clicks
+* ⌨️ Easy keyboard control (`p` to start/stop, `q` to quit)
+* 🧩 Lightweight and easy to configure
 
 ---
 
 ## 📦 Installation
 
-### 🧠 Option 1 — Clone via Git (Recommended)
+### 🧠 Option 1 - Clone via Git (Recommended)
 
-1. **Install Git**  
-   Download from: [https://git-scm.com/downloads](https://git-scm.com/downloads)  
-   Verify installation:
-   ```bash
-   git --version
-````
-
-2. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/ShiroxLoL/BongoCat-AutoClicker.git
-   cd BongoCat-AutoClicker
-   ```
-
-3. **Install Python 3.8+**
-   Download from: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-   Verify installation:
-
-   ```bash
-   python --version
-   ```
-
-4. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Install Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+   Verify installation with `git --version`.
+2. Clone the repository: `git clone https://github.com/ShiroxLoL/BongoCat-AutoClicker.git`
+3. Enter the project folder: `cd BongoCat-AutoClicker`
+4. Install Python 3.8+: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+   Verify installation with `python --version`.
+5. Install dependencies: `pip install -r requirements.txt`
 
 ---
 
-### 📁 Option 2 — Download ZIP Manually
+### 📁 Option 2 - Download ZIP Manually
 
 1. Go to the project page: [https://github.com/ShiroxLoL/BongoCat-AutoClicker](https://github.com/ShiroxLoL/BongoCat-AutoClicker)
-2. Click the green **“Code”** button → select **“Download ZIP”**
-3. Extract the ZIP file to any location
-4. Open a terminal or command prompt inside the extracted folder
-5. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Click the green “Code” button → select “Download ZIP”.
+3. Extract the ZIP file to any location.
+4. Open a terminal or command prompt in the extracted folder.
+5. Install dependencies using `pip install -r requirements.txt`.
 
 ---
 
 ## ▶️ Usage
 
-1. **Run the script**
+Run the program with `python autoclicker.py`.
 
-   ```bash
-   python autoclicker.py
-   ```
+**Controls**
 
-2. **Controls**
+* Press `p` → Start or stop the auto-clicker
+* Press `q` → Quit the program
 
-   * 🔄 Press **`p`** → Start or stop the auto-clicker
-   * ❌ Press **`q`** → Quit the program
+**Behavior**
 
-3. **Behavior**
-
-   * Randomized interval: **0.01 – 0.02 seconds**
-   * Each click is held for **0.02 seconds**
-   * Console shows messages when started or stopped
+* Randomized click interval between 0.01 and 0.02 seconds
+* Each click is held for 0.02 seconds
+* Console shows messages when started or stopped
 
 ---
 
 ## 🧰 Configuration
 
-You can modify timing values directly in `autoclicker.py`:
+Adjust the following values in `autoclicker.py` to change click behavior:
 
-```python
-min_interval = 0.01  # Minimum delay between clicks (seconds)
-max_interval = 0.02  # Maximum delay between clicks (seconds)
-hold_time = 0.02     # Duration each click is held (seconds)
-```
-
-💡 Adjust these values to control click speed and behavior.
+`min_interval = 0.01` — Minimum delay between clicks (seconds)
+`max_interval = 0.02` — Maximum delay between clicks (seconds)
+`hold_time = 0.02` — Duration each click is held (seconds)
 
 ---
 
@@ -94,11 +71,7 @@ hold_time = 0.02     # Duration each click is held (seconds)
 * ⌨️ keyboard==0.13.5 → [https://pypi.org/project/keyboard/](https://pypi.org/project/keyboard/)
 * 🔗 Git (only needed for cloning) → [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-Install all requirements:
-
-```bash
-pip install -r requirements.txt
-```
+Install all dependencies with `pip install -r requirements.txt`.
 
 ---
 
@@ -121,8 +94,7 @@ You may:
 
 You may **not**:
 
-* ❌ Redistribute, re-upload, sell, or use this code for **commercial purposes**
-  without **explicit written permission** from the author (**ShiroxLoL**)
+* ❌ Redistribute, re-upload, sell, or use this code for **commercial purposes** without **explicit written permission** from the author (**ShiroxLoL**)
 
 ---
 
