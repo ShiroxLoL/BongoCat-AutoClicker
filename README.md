@@ -1,4 +1,3 @@
-````markdown
 # 🐾 BongoCat AutoClicker
 
 **Author:** [ShiroxLoL](https://github.com/ShiroxLoL)  
