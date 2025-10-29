@@ -4,15 +4,6 @@
 
 ---
 
-## ⚙️ Features
-
-* 🖱️ Simulates real mouse clicks
-* 🎲 Randomized intervals between clicks
-* ⌨️ Easy keyboard control (`p` to start/stop, `q` to quit)
-* 🧩 Lightweight and easy to configure
-
----
-
 ## 📦 Installation
 
 ### 🧠 Option 1 - Clone via Git (Recommended)
